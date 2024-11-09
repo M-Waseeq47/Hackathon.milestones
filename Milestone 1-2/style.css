@@ -1,0 +1,84 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;
+  }
+  
+  .Resume {
+    display: flex;
+    background-color: rgba(33, 54, 172, 0.616);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.521);
+    border: 4px solid black;
+  }
+  .Left {
+    width: 35%; /* 35% width for Left Section */
+    background-color: rgb(104, 194, 224); 
+    border-right: 5px solid rgb(11, 180, 236) ;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Profile {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(11, 180, 236);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  .Right {
+    width: 65%; /* 65% width for Right Section */
+    background-color: rgb(190, 250, 250); /* Optional styling for visibility */
+    padding: 20px;
+  }
+  
+  button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: rgb(104, 194, 224);
+  }
+  
+  button:hover {
+    background-color  :rgb(11, 180, 236);
+  }
+  
